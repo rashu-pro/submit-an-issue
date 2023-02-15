@@ -1,0 +1,62 @@
+.main{
+  &-banner{
+    background-color: #fff;
+    border:1px solid #f2f2f2;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    &-wrapper{
+      position: relative;
+      bottom:-$banner-space-management;
+      margin-top:-$banner-space-management;
+    }
+
+    .image-holder{
+      img{
+        min-height: 100%;
+        object-fit: contain;
+        max-height:800px;
+      }
+    }
+  }
+}
+
+$goal-width: 150px;
+$goal-height:150px;
+$goal-radius:50%;
+
+.goal{
+  &-inner{
+    width:$goal-width;
+    height: $goal-height;
+    border-radius: $goal-radius;
+    background-color: $blue;
+  }
+  &-outer{
+    width: $goal-width+10px;
+    height:$goal-height+10px;
+    border-radius: $goal-radius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &-bg{
+      position: absolute;
+      top:0;
+      left:0;
+      width:50%;
+      height:30%;
+      background-color: $gray-800;
+    }
+  }
+}
+
+.logo-credit{
+  img{
+    max-height:40px;
+    max-width: 250px;
+    @media (min-width: 992px){
+      max-height:80px;
+      max-width: 250px;
+    }
+  }
+}

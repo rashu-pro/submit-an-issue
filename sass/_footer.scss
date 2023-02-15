@@ -1,0 +1,12 @@
+.footer{
+  border-top:1px solid #ddd;
+
+  a{
+    color:#fff;
+    opacity: 0.9;
+    &:hover{
+      color:$primary;
+      opacity: 1;
+    }
+  }
+}

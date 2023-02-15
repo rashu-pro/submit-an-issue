@@ -1,0 +1,21 @@
+{
+  "name": "submit-an-issue",
+  "version": "1.0.0",
+  "description": "submit an issue form",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass:assets/css -w"
+  },
+  "keywords": [
+    "form",
+    "request",
+    "form",
+    "support",
+    "form"
+  ],
+  "author": "rashu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

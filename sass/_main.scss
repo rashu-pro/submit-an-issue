@@ -1,0 +1,38 @@
+.form{
+  &-control{
+    background-color: #f7f7f7;
+    line-height: 1.8;
+  }
+}
+
+.section-title{
+  border-bottom:1px solid $primary;
+  color:$primary;
+}
+
+.logo-image{
+  max-width:12rem;
+  max-height: 7rem;
+}
+.alert{
+  &-head{
+    color:#4bae4f;
+    img{
+      max-height:22px;
+      position: relative;
+      top:3px;
+    }
+  }
+  &-success{
+    .alert-head{
+      color:#4bae4f;
+    }
+  }
+  &-danger{
+    .alert-head{
+      color:#ee5465;
+    }
+  }
+}
+
+
